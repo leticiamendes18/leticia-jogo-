@@ -8,4 +8,25 @@
     width: 80%;
     height: 500px;
     border: 1px solid #333;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.pípe {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    right: 0;
+}
+
+@keyfranes pípe-animation {
+    from {
+      right: 0;
+    }
+      
+    to {
+      right: 100%
+    }
 }
