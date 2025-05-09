@@ -19,11 +19,22 @@
     bottom: 0;
     width: 80px;
     right: 0;
+    left: 120px;
+    animation: pipe-animation 2s infinite linear;
 }
 
+.mario{
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+}
+
+.jump {
+  animation: jump 500 ease-out;
+}
 @keyfranes pípe-animation {
     from {
-      right: 0;
+      right: -80px;
     }
       
     to {
